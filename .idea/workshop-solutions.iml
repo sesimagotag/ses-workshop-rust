@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/part-1/task-1-interface-legacy-library/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/part-1/task-2-modify-shared-data-using-threads/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/part-1/task-3-use-external-rust-libraries/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/part-2/usb-hotplug-listener/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/part-3/usb-api/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

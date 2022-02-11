@@ -1,0 +1,10 @@
+[package]
+name = "usb-hotplug-listener"
+version = "0.1.0"
+edition = "2021"
+authors = ["Andreas Landgraf <andreas.landgraf@ses-imagotag.com>"]
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+rusb = "~0.9"

@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = [
+    "part-1/task-1-interface-legacy-library",
+    "part-1/task-2-modify-shared-data-using-threads",
+    "part-1/task-3-use-external-rust-libraries",
+    "part-2/usb-hotplug-listener",
+    "part-3/usb-api"
+]
+
+[profile.dev]
+# Disabling debug info speeds up builds a bunch and we don't rely on it for debugging that much.
+debug = 0
+
+[profile.release]
+lto = true
+opt-level = 3
+codegen-units = 1
