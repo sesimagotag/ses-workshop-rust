@@ -1,0 +1,15 @@
+[package]
+name = "legacy-binding"
+version = "0.1.0"
+description = "showcase ffi binding to a cmake generated "
+edition = "2021"
+authors = ["Andreas Landgraf <andreas.landgraf@ses-imagotag.com>"]
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+libc = "~0.2"
+
+[build-dependencies]
+bindgen = "~0.59"
+cmake = "~0.1"
